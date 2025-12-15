@@ -9,3 +9,5 @@ Thumbs.db
 # Composer
 /vendor/
 composer.lock
+
+.env
