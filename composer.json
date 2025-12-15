@@ -1,0 +1,26 @@
+{
+  "name": "variotry/laravel-server-information",
+  "description": "Define routes to check server information in the test environment.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Variotry\\ServerInformation\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Variotry\\ServerInformation\\ServerInformationServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0|^12.0",
+    "ext-xdebug": "*"
+  },
+  "require-dev": {
+    "laravel/framework": "^11.0|^12.0"
+  }
+}
